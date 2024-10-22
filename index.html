@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator UI - Arhum Hussain</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background-color: yellowgreen;
+        }
+
+        .cont {
+            width: 30%;
+            border-radius: 14px;
+            padding: 20px;
+            background-color: #202020;
+        }
+
+        .btn {
+            border-radius: 5px;
+            border: none;
+            margin: 5px;
+            padding: 20px 8px;
+            width: 20%;
+            background-color: #3b3b3b;
+            color: white;
+            font-size: 23px;
+        }
+
+        .btn button {
+            padding: 12px;
+        }
+
+        .btn:hover {
+            background-color: #323232;
+        }
+
+        .btn:active {
+            background-color: #474646;
+        }
+
+
+        .resultBar {
+            text-align: end;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            font-size: 40px;
+            font-weight: 600;
+            color: gainsboro;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="cont">
+            <div class="resultBar">113</div>
+            <div class="row">
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button style="background: #323232;" class="btn">÷</button>
+            </div>
+            <div class="row">
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button style="background: #323232;" class="btn">×</button>
+            </div>
+            <div class="row">
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button style="background: #323232;" class="btn">-</button>
+            </div>
+            <div class="row">
+                <button class="btn">7</button>
+                <button class="btn">7</button>
+                <button class="btn">7</button>
+                <button style="background: #323232;" class="btn">+</button>
+            </div>
+            <div class="row">
+                <button style="background: #323232;" class="btn">AC</button>
+                <button class="btn">7</button>
+                <button style="background: #323232;" class="btn">7</button>
+                <button style="background-color: #fffb80; color: black;" class="btn">=</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
